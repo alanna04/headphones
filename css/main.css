@@ -7,9 +7,16 @@
 #E6CDF9 light purple
 */
 /*header*/
+*{
+	box-sizing: border-box;
+}
 .container{
 	max-width: 1200px;
 	margin: 0 auto;
+	padding: 0 20px;
+}
+.container-fluid{
+	margin: 0 8%;
 	padding: 0 20px;
 }
 .box-shadow-default{
@@ -163,9 +170,11 @@ border:none;
 width: 60%;
 display: inline-block;
 float: left;
+
 }
 #top-jumbo .right-side img{
 width: 100%;
+padding-top: 30px;
 }
 
 /*header*/
