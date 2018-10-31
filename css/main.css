@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('footer.css');
+@import url('designby.css');
 /*
 #FEA83B orange
 #6066F2 light blue
@@ -24,6 +25,11 @@
 	-webkit-box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.24);
 -moz-box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.24);
 box-shadow: 0px 10px 40px 0px rgba(0,0,0,0.24);
+}
+.box-shadow-center{
+	-webkit-box-shadow: 0px 0px 65px 13px  rgba(158,158,158,0.2);
+-moz-box-shadow: 0px 0px 65px 13px  rgba(158,158,158,0.2);
+box-shadow: 0px 0px 65px 13px rgba(158,158,158,0.2);
 }
 header{
 padding: 30px 20px;
