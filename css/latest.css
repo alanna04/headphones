@@ -153,6 +153,9 @@ display: inline-block;
 padding: 10px;
 /*float:left;*/
 }
+#latest .footer-contact .info-box{
+	
+}
 #latest .footer-contact .info-box .input-area .fa{
 font-size: 2rem;
 position: relative;

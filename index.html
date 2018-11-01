@@ -7,6 +7,7 @@
 	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 	<link href="css/reset.css" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet">
+	<link href="css/mobile-nav-menu.css" rel="stylesheet">
 </head>
 <body>
 	<section id="top-jumbo">
@@ -15,11 +16,31 @@
 		<div class="logo">
 			<img src="img/song-bird-logo-4.png">
 		</div>
-		<div class="menu">
-			<a href="#">Features</a>
-			<a href="#">Gallery</a>
-			<a href="#">Tech Spec</a>
-			<a href="#">Support</a>
+		<div class="head-image">
+			<img src="img/song-bird-logo-6.png">
+		</div>
+		<nav role="navigation">
+ 		 <div id="menuToggle">
+    <!--
+    A fake / hidden checkbox is used as click reciever,
+    so you can use the :checked selector on it.
+    -->
+    <input type="checkbox" />
+    	<span></span>
+    <span></span>
+    <span></span>
+    <ul id="menu">
+		<div class="menu mobile-nav-menu.css">
+			<li><a href="#">Features</a></li>
+			<li><a href="#">Gallery</a></l>
+			<li><a href="#">Tech Spec</a></li>
+			<li><a href="#">Support</a></li>
+			<li><a href="#">Show Bag</a></li>
+			<li><a href="#">Sign Up</a></li>
+			
+    </ul>
+  </div>
+</nav>
 			</div>
 		<div class="header-buttons">
 			<a href="#" class="blue-btn">Show Bag <i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
@@ -151,7 +172,7 @@
 						<input type="email" name="email" placeholder="Be In the Know!">
 						<button type="submit" name="button" class="">Send</button>
 					</div>
-				</form>				
+				</form>		
 				</div>				
 			</div>
 		</div>

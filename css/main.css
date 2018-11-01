@@ -55,6 +55,9 @@ header .logo{
 header .logo img{
 width: 40px;
 }
+header .head-image img{
+width: 467px;
+}
 header .menu{
 	display: inline-block;
 	float: left;
@@ -222,6 +225,12 @@ padding-top: 30px;
 }
 /*Tablet Devices*/
 @media only screen and (max-width: 1023px) {
+	header .head-image img{
+	width: 100%;
+	}
+	header .logo img{
+	display: none;
+	}
 	#top-jumbo{
 	padding: 0 0 300px;
 	}
@@ -269,6 +278,12 @@ padding-top: 30px;
 }
 /*Mobile Devices*/
 @media only screen and (max-width: 767px) {
+	header .head-image img{
+	width: 100%;
+	}
+	header .logo img{
+	display: none;
+	}
 	#top-jumbo{
 	padding: 0 0 200px;
 	}
@@ -315,9 +330,9 @@ padding-top: 30px;
 		top: 0px;
 		padding-bottom: 160px;
 	}
-	#top-jumbo .menu{
+	/*#top-jumbo .menu{
    		display: none;
-   		display: ("../img/purple-headphones.jpg")
+   		display: ("../img/purple-headphones.jpg")*/
    	}
 
    
