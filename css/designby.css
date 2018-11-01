@@ -3,7 +3,6 @@
 	top: -300px;
 }
 #design-by .design-container{
-	
 	border-radius: 55px;
 	background-color: #000000;
 	position: relative;
@@ -48,7 +47,7 @@
 	color: #ffffff;
 	font-size: 1rem;
 	font-weight: 400;
-	margin-bottom: 14.5px;
+	margin-bottom: 12px;
 	vertical-align: top;
 }
 #design-by .design-container .info-section .info-list li .circle{
@@ -116,4 +115,45 @@
 	margin-bottom: 2rem;
 	opacity: 0.5;
 	margin-top: 61px;
+}
+/*Laptop Devices*/
+@media only screen and (max-width: 1215px) {
+    
+}
+/*Tablet Devices*/
+@media only screen and (max-width: 1023px) {
+	#design-by .design-container .info-section{
+	padding-left: 10px;
+	}
+	#design-by .design-container .icons-section .refresh-circle{
+	left: 44%;
+	}
+	#design-by .design-container .info-section .white-btn{
+	padding: 10px 40px;
+	font-size: 1rem;
+	}
+	#design-by .design-container .info-section .info-list li{
+	line-height: 1.9;
+	}
+
+    
+}
+/*Mobile Devices*/
+@media only screen and (max-width: 767px) {
+	#design-by .design-container .info-section{
+	width: 100%;
+	padding: 20px;
+	}
+	#design-by .design-container .icons-section{
+	width: 100%;
+	}
+
+	#design-by .design-container .icons-section .refresh-circle{
+	display: none;
+	}
+
+	#design-by .design-container .info-section .info-list li{
+	line-height: 2;
+	}
+   
 }

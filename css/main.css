@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 @import url('footer.css');
-/*@import url('designby.css');*/
+@import url('designby.css');
 @import url('latest.css');
 /*
 #FEA83B orange
@@ -149,6 +149,7 @@ border-radius: 50px;
 display: inline-block;
 padding: 10px;
 }
+
 #top-jumbo .left-side .info-container .email-area .fa{
 font-size: 2rem;
 position: relative;
@@ -185,4 +186,139 @@ width: 100%;
 padding-top: 30px;
 }
 
-/*header*/
+/*Laptop Devices*/
+@media only screen and (max-width: 1215px) {
+	#top-jumbo .left-side .info-container h1{
+	font-size: 3.0rem;
+	}
+	#top-jumbo .left-side .info-container p{
+		font-size: 1.2rem;
+	}
+	#top-jumbo .left-side .info-container .email-area .fa{
+	position: relative;
+	top: 14px;
+	margin-left: 0; 
+	float: left;
+	width: 15%;
+	text-align: center;
+	}
+	#top-jumbo .left-side .info-container .email-area{
+	width: 100%;
+	}
+	#top-jumbo .left-side .info-container .email-area input[type="email"]{
+	float: left;
+	width: 50%;
+	position: relative;
+	top: 12px;
+	}
+	#top-jumbo .left-side .info-container .email-area button{
+	background: #6066F2;
+	padding: 20px 0px;
+	font-size: 1rem;
+	width: 28%;
+	float: left;
+	}
+    
+}
+/*Tablet Devices*/
+@media only screen and (max-width: 1023px) {
+	#top-jumbo{
+	padding: 0 0 300px;
+	}
+	
+	#top-jumbo .left-side{
+		width: 60%;
+	}
+	#top-jumbo .left-side .large-number{
+		font-size: 250;
+	}
+	#top-jumbo .left-side .info-container h1{
+	font-size: 3.0rem;
+	}
+	#top-jumbo .left-side .info-container p{
+		font-size: 1.2rem;
+	}
+	#top-jumbo .left-side .info-container .email-area .fa{
+	position: relative;
+	top: 14px;
+	margin-left: 0; 
+	float: left;
+	width: 15%;
+	text-align: center;
+	}
+	#top-jumbo .left-side .info-container .email-area{
+	width: 100%;
+	}
+	#top-jumbo .left-side .info-container .email-area input[type="email"]{
+	float: left;
+	width: 50%;
+	position: relative;
+	top: 12px;
+	}
+	#top-jumbo .left-side .info-container .email-area button{
+	background: #6066F2;
+	padding: 20px 0px;
+	font-size: 1rem;
+	width: 28%;
+	float: left;
+	}
+	#top-jumbo .right-side {
+	width: 40%;
+	}
+    
+}
+/*Mobile Devices*/
+@media only screen and (max-width: 767px) {
+	#top-jumbo{
+	padding: 0 0 200px;
+	}
+	#top-jumbo .left-side{
+		width: 100%;
+	}
+	#top-jumbo .left-side .large-number{
+		font-size: 250;
+	}
+	#top-jumbo .left-side .info-container h1{
+	font-size: 3.0rem;
+	}
+	#top-jumbo .left-side .info-container p{
+		font-size: 1.2rem;
+	}
+	#top-jumbo .left-side .info-container .email-area .fa{
+	position: relative;
+	top: 14px;
+	margin-left: 0; 
+	float: left;
+	width: 15%;
+	text-align: center;
+	}
+	#top-jumbo .left-side .info-container .email-area{
+	width: 100%;
+	}
+	#top-jumbo .left-side .info-container .email-area input[type="email"]{
+	float: left;
+	width: 50%;
+	position: relative;
+	top: 12px;
+	}
+	#top-jumbo .left-side .info-container .email-area button{
+	background: #6066F2;
+	padding: 20px 0px;
+	font-size: 1rem;
+	width: 28%;
+	float: left;
+	}
+	#top-jumbo .right-side {
+	width: 100%;
+	}
+	#top-jumbo .right-side{
+		top: 0px;
+		padding-bottom: 160px;
+	}
+	#top-jumbo .menu{
+   		display: none;
+   		display: ("../img/purple-headphones.jpg")
+   	}
+
+   
+}
