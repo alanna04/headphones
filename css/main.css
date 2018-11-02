@@ -284,6 +284,12 @@ padding-top: 30px;
 	header .logo img{
 	display: none;
 	}
+	header .header-buttons .blue-btn{
+	display: none;
+	}
+	header .header-buttons .orange-btn{
+	display: none;
+	}
 	#top-jumbo{
 	padding: 0 0 200px;
 	}

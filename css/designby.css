@@ -2,13 +2,14 @@
 	position: relative;
 	top: -300px;
 }
+
 #design-by .design-container{
 	border-radius: 55px;
-	background-color: #000000;
+	background-color: #ffffff;
 	position: relative;
 }
-
 /*
+
 #design-by .degign-container.bg-container{
 	position:relative;
 	background:#FFFFFF;
@@ -155,5 +156,5 @@
 	#design-by .design-container .info-section .info-list li{
 	line-height: 2;
 	}
-   
+
 }
