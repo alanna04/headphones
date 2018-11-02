@@ -284,11 +284,18 @@ padding-top: 30px;
 	header .logo img{
 	display: none;
 	}
+	header .header-buttons{
+	float: left;
+	}
 	header .header-buttons .blue-btn{
-	display: none;
+	padding: 14px 30px;
+	top: 95px;
+	
 	}
 	header .header-buttons .orange-btn{
-	display: none;
+	padding: 14px 30px;
+	top: 95px;
+	
 	}
 	#top-jumbo{
 	padding: 0 0 200px;

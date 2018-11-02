@@ -119,6 +119,25 @@ color: white;
 		font-weight: 700;
 		font-size: 2.3rem;
 }
+
+#latest  .coming-soon img{
+	width: 90%;
+	padding:90px 0 20px 10px;
+}
+#latest  .coming-soon .line{
+		width: 20%;
+		height: 2px;
+		background: #6066F2;
+		margin: 40px auto;
+		text-align: center;
+}
+#latest .coming-soon .price{
+		color: #FEA83B;
+		font-weight: 700;
+		font-size: 2.3rem;
+		text-align: center;
+		margin-bottom: 90px;
+}
 #latest .footer-contact{
 	text-align: center;
 	position: relative;
@@ -146,6 +165,9 @@ color: white;
 	/*display:inline-block;
 	margin:0 auto;*/
 }
+#latest .footer-contact .info-box h4{
+	margin-bottom: 60px;
+}
 #latest .footer-contact .info-box .input-area{
 background: #ffffff;
 border-radius: 50px;
@@ -154,7 +176,7 @@ padding: 10px;
 /*float:left;*/
 }
 #latest .footer-contact .info-box{
-	
+
 }
 #latest .footer-contact .info-box .input-area .fa{
 font-size: 2rem;
@@ -281,6 +303,9 @@ border:none;
 	font-size: 1rem;
 	width: 28%;
 	float: left;
+	}
+	#latest .soon-h1{
+	margin-top: -150px;
 	}
    
 }
